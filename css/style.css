@@ -196,6 +196,13 @@ footer nav a {
     padding: 20px;
 }
 
-.project-week{
-    padding-left: 20px;;
+.project-week img{
+    height: 350px ;
+      height: 350px;
+     width:570px;
+     margin-top:-107px;
+}
+.pinkgoose-naam{
+    margin-bottom: 130px;
+    padding: 10px;
 }
