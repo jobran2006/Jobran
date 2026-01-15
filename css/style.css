@@ -17,6 +17,9 @@
 
 body{
     background-color: #0A1117;
+     display: flex; 
+     flex-direction: column; 
+     gap: 40px; 
 } 
 
 .contact-box{
@@ -134,12 +137,9 @@ footer nav a {
 
 .home-footer img {
  height: 170%;
-
+ 
 }
 
-.social image {
-   height: 170%; 
-}
 
 .about-me-container { 
  background-image: url('../img/shahba.png');
@@ -172,7 +172,7 @@ footer nav a {
     flex-wrap: wrap;
     gap: 50px;
     width: 100%;
-    height: 100%;
+    height: 98%;
     border-radius: 25px;
     justify-content: center;   
 }
