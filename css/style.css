@@ -201,3 +201,6 @@ footer nav a {
 }
 
 
+.about-me-container img{
+    transition: transform 0.1s linear;
+}
