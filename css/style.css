@@ -51,18 +51,20 @@ main{
 .email input {
     width:520px;
    border: none;
-    border-bottom:20px solid #00A8CD;
+    border-bottom:2px solid #00A8CD;
     background-color: transparent;             
     outline: none;
     color: white;                  
     padding: 5px;
     font-size: 16px;
+    height:px;
+    
    
 }
 
 .streep-message textarea{
   background-color: transparent;
- border:20px solid #00A8CD;
+ border:2px solid #00A8CD;
   color: white;
   padding: 55px;
   font-size: 16px;
@@ -106,6 +108,7 @@ footer nav a {
     gap: 10px;
     padding-bottom: 30px;
 }
+
 
 .blue-text{
     color:  #00A8CD ;
@@ -196,3 +199,5 @@ footer nav a {
      border-radius:10px;
     
 }
+
+
