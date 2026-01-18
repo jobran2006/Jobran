@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-   
+
     const versturenBtn = document.querySelector('.versturen');
 
     if (versturenBtn) {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let rotation = 0;
 
         function rotate() {
-            rotation += 1; 
+            rotation += 1;
 
             aboutImages.forEach(img => {
                 img.style.transform = `rotate(${rotation}deg)`;
@@ -47,5 +47,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         rotate();
     }
-
+    
 });
