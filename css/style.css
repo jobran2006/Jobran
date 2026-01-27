@@ -193,6 +193,7 @@ footer nav a {
     width: 600px;
     align-items: center;
     border-radius: 25px;
+    gap:10px;
 }
 
 .project-mastermind-pinkgoose {
@@ -221,7 +222,7 @@ footer nav a {
 }
 
 .padding-tekst {
-    padding: 20px;
+  
 }
 
 .project-week img {
