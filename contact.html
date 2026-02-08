@@ -24,14 +24,14 @@
 
     <main>
          <section class="contact column">
-            <div class="contact-me align-items wit padding ">
+            <div class="contact-me align-items wit  ">
                 <h1> Contact</h1>
                 <h1 class="blue-text">Me</h1>
             </div>
-            <form class="  justify-center border contact-box  column ">
+            <form class="  justify-center border contact-box  flexdirection-row ">
                 <div class=" column contact-blauw-container ">
                     <div class="blauw-streep-container">
-                        <div class=" flex-direction-row   streep-container contact-blauw-container">
+                        <div class=" flex-direction-row    contact-blauw-container">
                             <div class="email  ">
                                 <input type="email" name="email" placeholder="Email">
                             </div>
@@ -43,11 +43,28 @@
                         </div>
                     </div>
                 </div>
-                <div class=" streep-message column ">
-                    <textarea name="message" placeholder="Uw bericht..."></textarea>
-                </div>
-                <div class="versturen wit justify-center">
-                    <h2>versturen</h2>
+                <div class="message-roc column">
+                    <div class="message-roc-box">
+                        <div class=" streep-message wit ">
+                            <textarea name="message" placeholder="Uw bericht..."></textarea>
+                            <h1 class="contact-email"></h1>
+                            <h2>Email: 1218735@roc-nijmegen.nl</h2>
+                            <h2>Telefoon: 0248904500</h2>
+                        </div>
+                        <div class=" roc-nijmegen ">
+                            <img src="img/roc.png" alt="roc-nijmegen">
+                            <div class="adres wit">
+                                <h1>Adres</h1>
+                                <h2>Plaats: Nijmegen</h2>
+                                <h2>Postcode: 6525EE </h2>
+                                <h2>Straat: Heyendaalseweg 98 </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="versturen wit justify-center">
+                        <h2>versturen</h2>
+                    </div>
+
                 </div>
             </form>
         </section>
@@ -75,6 +92,6 @@
             <a href="contact.html">Contact</a>
         </nav>
     </footer>
-     <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
