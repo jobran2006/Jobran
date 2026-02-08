@@ -50,15 +50,3 @@ document.addEventListener("DOMContentLoaded", () => {
     
 });
 
-function initMap() {
-    const locatie = { lat: 52.3676, lng: 4.9041 };
-
-    new google.maps.Map(document.getElementById("map-container"), {
-        center: locatie,
-        zoom: 12,
-        zoomControl: true,
-        mapTypeControl: true,
-        streetViewControl: true,
-        fullscreenControl: true,
-    }); 
-}
